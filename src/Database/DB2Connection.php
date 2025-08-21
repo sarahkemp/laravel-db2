@@ -141,7 +141,7 @@ class DB2Connection extends Connection
      */
     protected function withTablePrefix(QueryGrammar $grammar){
         return $grammar;
-    
+    }
     
     /**
      * Get the default post processor instance.
